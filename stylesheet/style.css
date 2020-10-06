@@ -446,31 +446,20 @@ p{
     min-width: 0;
 }
 
-.slider .slick-arrow{
-    position: absolute;
-    top: 50%;
-    z-index: 10;
-    font-size: 0;
-}
 .slider .slick-dots{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    position: absolute;
+    top: 500px;
+    left: 190px;
+
 }
 
 
 .slider .slick-dots li{
     list-style: none;
+    margin: 0 8px;
 }
 
-.slider .slick-dots li .slick-active button{
-    font-size: 0;
-    width: 14px;
-    height: 13px;
-    background-color: #7db52c;
-    opacity: 0.67;
-    border-radius: 50%;
-}
 
 .slider .slick-dots button{
     font-size: 0;
@@ -479,6 +468,10 @@ p{
     background-color: #363636;
     opacity: 0.1;
     border-radius: 50%;
+}
+.slider .slick-dots li.slick-active button{
+    background-color: #7db52c;
+    opacity: 0.67;
 }
 
 .slick-track{

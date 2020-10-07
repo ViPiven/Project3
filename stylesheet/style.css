@@ -478,10 +478,23 @@ p{
     display: flex;
 }
 
-
+#slick-slide-control10{
+    display: none;
+}
+#slick-slide-control20{
+    display: none;
+}
+#slick-slide-control30{
+    display: none;
+}
 .slick-list{
     overflow: hidden;
 }
 
 
+/* Media*/
+@media(max-width:900px ){
+
+
+}
 
